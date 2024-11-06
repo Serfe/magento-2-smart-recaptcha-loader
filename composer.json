@@ -1,0 +1,24 @@
+{
+    "name": "serfe/magento2-smart-recaptcha-loader",
+    "description": "This Magento 2 module optimizes the performance of reCAPTCHA by loading its related files only when a form field gains focus.",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "info@serfe.com",
+            "name": "Serfe"
+        }
+    ],
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "require": {
+        "magento/module-re-captcha-frontend-ui": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Serfe\\SmartRecaptchaLoader\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
