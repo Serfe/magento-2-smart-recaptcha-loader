@@ -1,6 +1,6 @@
 # Magento 2 Smart reCaptcha Loader
 
-[![Latest Stable Version](https://poser.pugx.org/serfe/magento2-smart-recaptcha-loader/version)](https://packagist.org/packages/serfe/magento2-smart-recaptcha-loader)[![License](http://poser.pugx.org/serfe/magento2-smart-recaptcha-loader/license)](https://packagist.org/packages/serfe/magento2-smart-recaptcha-loader)
+[![Latest Stable Version](https://poser.pugx.org/serfe/magento2-smart-recaptcha-loader/version)](https://packagist.org/packages/serfe/magento2-smart-recaptcha-loader)
 
 Boost your Magento 2 store's performance and user experience with the **Smart reCaptcha Loader** module. This extension loads the reCAPTCHA API only when users interact with form fields, improving initial page load times without compromising security.
 
@@ -47,7 +47,8 @@ To install the **Smart reCaptcha Loader** module, follow these steps:
    bin/magento setup:upgrade
    bin/magento cache:clean
    ```
-### Integration with Magento reCAPTCHA Settings
+
+## Integration with Magento reCAPTCHA Settings
 
 The **Smart reCaptcha Loader** module is fully compatible with all Magento-native reCAPTCHA settings for the storefront. It supports flexible integration with reCAPTCHA v2 challenge (Invisible and "I am not a robot") and reCaptcha v3 (Invisible) score based variants, ensuring seamless protection across various customer interaction points. This includes areas such as Customer Login, Account Creation, Contact Us, Product Reviews, Checkout, and more.
 
@@ -65,3 +66,7 @@ If you wish to have some changes done into this module to adapt it to your speci
 ### Contributing
 
 We welcome contributions to this module. To contribute, fork the repository, make your changes, and submit a pull request.
+
+---
+
+<sub>This module was inspired by [Magento Security Package PR #334](https://github.com/magento/security-package/pull/334).</sub>
