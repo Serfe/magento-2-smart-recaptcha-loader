@@ -43,7 +43,11 @@ define(
             initialize: function () {
                 this._super();
 
-                this.attachFocusEvent();
+                if (window.location.href.includes('checkout')) {
+                    this._loadApi();
+                } else {
+                    this.attachFocusEvent();
+                }
             },
 
             attachFocusEvent: function () {

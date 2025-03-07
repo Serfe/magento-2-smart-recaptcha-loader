@@ -8,7 +8,7 @@
             "name": "Serfe"
         }
     ],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "minimum-stability": "stable",
     "require": {
         "magento/module-re-captcha-frontend-ui": "*"
